@@ -1,0 +1,8 @@
+{
+  "files": [],
+  "include": [],
+  "references": [
+    { "path": "packages/lib-server" },
+    { "path": "../packages-common/packages/lib-common" },
+  ]
+}

@@ -8,12 +8,12 @@
       "~/src/*": ["src/*"],
       "~/test/*": ["test/*"],
       // set paths for local dependency packages
-      "lib-common": ["../lib-common/src"]
+      "lib-common": ["../../packages-common/packages/lib-common/src"]
     }
   },
   "include": ["src"],
   "references": [
     { "path": "../lib-server" },
-    { "path": "../lib-common" },
+    { "path": "../../packages-common/packages/lib-common" },
   ]
 }

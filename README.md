@@ -6,6 +6,9 @@ Mono-repo project examples using:
 - [yarn](https://classic.yarnpkg.com/)
 - [TypeScript](https://www.typescriptlang.org/)
 
+`packages-client`와 `packages-server`는 각각의 `lerna.json`을 가진 mono-repo project이다.</br>
+각각의 디렉토리 아래 있는 `packages-common`은 git의 submodule로 관리될 수 있다.
+
 ## Initialize project folder
 
 ```sh

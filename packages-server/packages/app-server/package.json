@@ -38,7 +38,7 @@
     "moduleNameMapper": {
       "~src/(.*)$": "<rootDir>/src/$1",
       "~test/(.*)$": "<rootDir>/test/$1",
-      "lib-common": "<rootDir>/../lib-common/src"
+      "lib-common": "<rootDir>/../../packages-common/packages/lib-common/src"
     },
     "modulePathIgnorePatterns": [
       "<rootDir>/build/"

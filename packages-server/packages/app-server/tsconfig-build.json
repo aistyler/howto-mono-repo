@@ -15,6 +15,6 @@
   // 'references' property is not inherited from a parent tsconfig
   "references": [
     { "path": "../lib-server" },
-    { "path": "../lib-common" },
+    { "path": "../../packages-common/packages/lib-common" },
   ]
 }
