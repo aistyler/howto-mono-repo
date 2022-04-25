@@ -1,0 +1,14 @@
+{
+  "extends": "../tsconfig-lib.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "lib",
+    "baseUrl": ".",
+    "paths": {
+      "~/src/*": ["src/*"],
+      "~/test/*": ["test/*"],
+    }
+  },
+  "include": ["src"],
+  "exclude": ["lib", "test", "**/*.spec.ts"]
+}

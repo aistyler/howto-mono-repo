@@ -1,7 +1,7 @@
 import { hello } from 'lib-common';
 
 export function bootstrap() {
-  console.log('>>> common:', hello());
+  console.log('>>> from lib-common:', hello());
 }
 
 bootstrap();

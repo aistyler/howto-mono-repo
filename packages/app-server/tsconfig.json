@@ -11,5 +11,9 @@
       "lib-common": ["../lib-common/src"]
     }
   },
-  "include": ["src"]
+  "include": ["src"],
+  "references": [
+    { "path": "../lib-server" },
+    { "path": "../lib-common" },
+  ]
 }

@@ -11,5 +11,10 @@
       "~/test/*": ["test/*"],
     }
   },
-  "exclude": ["build", "test", "**/*.spec.ts"]
+  "exclude": ["build", "test", "**/*.spec.ts"],
+  // 'references' property is not inherited from a parent tsconfig
+  "references": [
+    { "path": "../lib-server" },
+    { "path": "../lib-common" },
+  ]
 }
