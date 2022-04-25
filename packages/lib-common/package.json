@@ -5,6 +5,7 @@
   "typings": "lib/index.d.ts",
   "license": "MIT",
   "scripts": {
+    "test": "jest",
     "build": "tsc -b",
     "clean": "rimraf lib tsconfig.tsbuildinfo"
   },
@@ -17,5 +18,25 @@
     "ts-node": "^10.7.0",
     "tsconfig-paths": "^3.14.1",
     "typescript": "^4.6.3"
+  },
+  "jest": {
+    "moduleFileExtensions": ["js", "json", "ts"],
+    "rootDir": ".",
+    "testRegex": ".*\\.spec\\.ts$",
+    "transform": {
+      "^.+\\.(t|j)s$": "ts-jest"
+    },
+    "collectCoverageFrom": [
+      "src/**/*.(t|j)s"
+    ],
+    "coverageDirectory": "./coverage",
+    "testEnvironment": "node",
+    "moduleNameMapper": {
+      "~src/(.*)$": "<rootDir>/src/$1",
+      "~test/(.*)$": "<rootDir>/test/$1"
+    },
+    "modulePathIgnorePatterns": [
+      "<rootDir>/lib/"
+    ]
   }
 }

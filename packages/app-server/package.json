@@ -41,7 +41,7 @@
       "lib-common": "<rootDir>/../lib-common/src"
     },
     "modulePathIgnorePatterns": [
-      "<rootDir>/dist/"
+      "<rootDir>/build/"
     ]
   }
 }

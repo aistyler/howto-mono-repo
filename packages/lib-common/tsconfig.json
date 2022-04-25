@@ -3,6 +3,12 @@
   "compilerOptions": {
     "rootDir": "src",
     "outDir": "lib",
+    "baseUrl": ".",
+    "paths": {
+      "~/src/*": ["src/*"],
+      "~/test/*": ["test/*"],
+    }
   },
-  "include": ["src"]
+  "include": ["src"],
+  "exclude": ["lib", "test", "**/*.spec.ts"]
 }

@@ -11,5 +11,5 @@
       "~/test/*": ["test/*"],
     }
   },
-  "exclude": ["build"]
+  "exclude": ["build", "test", "**/*.spec.ts"]
 }
