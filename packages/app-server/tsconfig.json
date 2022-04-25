@@ -1,0 +1,15 @@
+{
+  "extends": "../tsconfig-base.json",
+  "compilerOptions": {
+    // N.B. *DO NOT* set 'rootDir' here
+    // The parent rootDir will be used to run without building
+    "baseUrl": ".",
+    "paths": {
+      "~/src/*": ["src/*"],
+      "~/test/*": ["test/*"],
+      // set paths for local dependency packages
+      "lib-common": ["../lib-common/src"]
+    }
+  },
+  "include": ["src"]
+}
