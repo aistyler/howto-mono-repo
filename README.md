@@ -24,4 +24,12 @@ yarn init --yes --cwd packages/app-server
 yarn init --yes --cwd packages/app-client
 yarn init --yes --cwd packages/lib-server
 yarn init --yes --cwd packages/lib-common
+
+# then configure the workspaces using
+#  - workspaces@package.json for yarn workspace
+#  - packages@lerna.json for lerna workspace
+
+# check
+yarn workspaces info
+yarn lerna list
 ```
